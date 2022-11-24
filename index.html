@@ -1,0 +1,53 @@
+
+<head>
+    <!-- Tu sais m'ouvrir le js et css vitef plz-->
+        <title></title></title>
+        <link rel="stylesheet" media="screen" type="text/css" title="musique" href="musique.css"/>
+        
+        <script src="musique.js"></script>
+    </head>
+    <body>
+        <nav id='menu'>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+              <li><a class='dropdown-arrow' href='http://'>III</a>
+                <ul class='sub-menus'>
+                  <li><a href="">Products 1</a></li>
+                  <li><a href="">Products 2</a></li>
+                  <li><a href="">Products 3</a></li>
+                  <li><a href="">Products 4</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav> 
+        
+        <div class="loader" id="loader">
+            <span class="stroke" ></span>
+            <span class="stroke"></span> 
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+        </div>
+       
+        <div id="bar">
+        <input type="range" id="slider1" value="0" min="0" max="100">
+        </div>
+
+        <div class="flipswitch" id="flipswitch">
+            <input type="checkbox" name="flipswitch" class="flipswitch-cb" id="fs" checked>
+            <label class="flipswitch-label" for="fs">
+                <div class="flipswitch-inner"></div>
+                <div class="flipswitch-switch"></div>
+            </label>
+        
+        </div>
+    </body>
+
